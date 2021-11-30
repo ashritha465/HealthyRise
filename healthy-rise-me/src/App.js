@@ -7,13 +7,14 @@ import Button from "react-bootstrap/Button";
 import logo from "./assets/logo-transparent.png";
 import Image from "react-bootstrap/Image";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import SetOne from "./components/SetOne";  
 
 function App() {
   const routes = [
     {
       path: "/",
       exact: true,
-      main: () => <h2>Set-1</h2>,
+      main: () => <SetOne/>,
     },
     {
       path: "/setTwo",
@@ -39,13 +40,13 @@ function App() {
         {/* mx-margin left and right */}
         <Router>
           <Row className=" my-3" id="menu-bar">
-            <Col lg={3} md={12} id="set-1">
+            <Col lg={3}  id="set-1">
               <Link to="/">
                 <Button variant="outline-warning">Week 1</Button>
               </Link>
             </Col>
 
-            <Col lg={3} md={12} id="set-2">
+            <Col lg={3}  id="set-2">
               <Link to="/setTwo">
                 <Button variant="outline-warning" className="mx-2" >
                   Week 2,3,4
@@ -53,7 +54,7 @@ function App() {
               </Link>
             </Col>
 
-            <Col lg={3} md={12} id="set-3">
+            <Col lg={3}  id="set-3">
               <Link to="/setThree">
                 <Button variant="outline-warning">Week 4,5,6</Button>
               </Link>

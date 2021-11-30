@@ -1,5 +1,5 @@
 .home {
-  background-color: #fbfbfb;
+  background-color: #ffffff;
 }
 
 /* overriding for warning to purple color */
@@ -14,15 +14,17 @@
 }
 
 .btn-outline-warning {
-  color: #8c67ad !important;
-  border-color: #7a7ba9 !important;
+  color: purple !important;
+  border-color: purple !important;
+  background-color: rgb(241, 234, 241) !important;
+  width: 50%;
 }
 .btn-outline-warning:active {
   color: white !important;
-  border-color: #7a7ba9 !important;
+  border-color: purple !important;
 }
 .btn-outline-warning:hover {
-  background-color: #8c67ad !important;
+  background-color: purple !important;
   color: white !important;
 }
 .btn-outline-warning:focus {
@@ -45,4 +47,8 @@
 #meal-plan{
   text-align: center;
   margin-bottom: 2px;
+}
+
+._24bLp:after {
+  background: #ffffff !important;
 }
