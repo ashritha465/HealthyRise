@@ -1,8 +1,29 @@
 #set-1-div {
   color: white;
 }
-#timer {
-  color: rgb(212, 41, 41);
+iframe.responsive-iframe {
+  /* border: 2px solid #CD52CD; */
+  margin: auto;
+  display: block;
+}
+
+#set-1-video-1-heading {
+  color: #CD52CD;
+  text-align: center;
+}
+
+#set-1-video-1-description {
+  text-align: justify;
+  align-items: center;
+  color: black;
+  background-color: rgb(241, 234, 241);
+  border-radius: 15px;
+  border: 1px solid #CD52CD;
+  padding: 10px;
+}
+div#video-descrption-body {
+  margin-right: 0rem!important;
+  margin-left: 1rem!important;
 }
 
 

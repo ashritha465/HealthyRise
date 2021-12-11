@@ -4,7 +4,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
-import logo from "./assets/logo-transparent.png";
+import logoExercise from './assets/logo-exercises.png'
 import Image from "react-bootstrap/Image";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import SetOne from "./components/SetOne";  
@@ -33,9 +33,13 @@ function App() {
     <div className="home">
       <Container fluid>
         <Row id="header" className="mx-0 my-3">
-          <Col id="image-div">
-            <Image src={logo} fluid />
+          <Col id="image-div" lg={1}>
+            <Image src={logoExercise} fluid />
           </Col>
+          <Col id="image-div" lg={11}>
+       <div id='heading_name'>HEATHYRISE</div>
+          </Col>
+        
         </Row>
         {/* mx-margin left and right */}
         <Router>

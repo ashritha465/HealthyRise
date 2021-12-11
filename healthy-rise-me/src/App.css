@@ -1,5 +1,5 @@
 .home {
-  background-color: #ffffff;
+  background-color: black;
 }
 
 /* overriding for warning to purple color */
@@ -8,23 +8,28 @@
   text-align: center;
 }
 .img-fluid {
-  max-width: 100%;
+  max-width: 200% !important;
   height: auto;
   width: 250px !important;
 }
-
+#heading_name{
+  color: #CD52CD;
+  font-size: 4vw;
+  font-family: serif;
+  font-weight: bolder;
+}
 .btn-outline-warning {
-  color: purple !important;
-  border-color: purple !important;
+  color: #CD52CD !important;
+  border-color: #CD52CD !important;
   background-color: rgb(241, 234, 241) !important;
   width: 50%;
 }
 .btn-outline-warning:active {
   color: white !important;
-  border-color: purple !important;
+  border-color: #CD52CD !important;
 }
 .btn-outline-warning:hover {
-  background-color: purple !important;
+  background-color: #CD52CD !important;
   color: white !important;
 }
 .btn-outline-warning:focus {
