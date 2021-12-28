@@ -7,8 +7,10 @@ import Button from "react-bootstrap/Button";
 import logoExercise from './assets/logo-exercises.png'
 import Image from "react-bootstrap/Image";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import SetOne from "./components/SetOne";  
-
+import SetOne from "./components/SetOne";
+import SetTwo from "./components/SetTwo";    
+import SetThree from "./components/SetThree";   
+import MealPlan from "./components/MealPlan"; 
 function App() {
   const routes = [
     {
@@ -18,15 +20,15 @@ function App() {
     },
     {
       path: "/setTwo",
-      main: () => <h2>Set-2</h2>,
+      main: () => <SetTwo/>,
     },
     {
       path: "/setThree",
-      main: () => <h2>Set-3</h2>,
+      main: () => <SetThree/>,
     },
     {
       path: "/mealPlan",
-      main: () => <h2>meal plan</h2>,
+      main: () => <MealPlan/>,
     },
   ];
   return (
