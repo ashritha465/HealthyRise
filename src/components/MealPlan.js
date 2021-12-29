@@ -10,6 +10,7 @@ function MealPlan() {
           scrolling="auto"
           height="1000px"
           width="100%"
+          title="health-diet"
         ></iframe>
       </Row>
     </>
